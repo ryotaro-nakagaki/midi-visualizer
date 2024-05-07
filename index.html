@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MIDI Visualizer</title>
+
+  <!-- for Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: "Inconsolata"
+    }
+  </style>
+</head>
+
+<body>
+  <div class="window">
+    <h2 class="window-title">#1. Upload Files</h2>
+    <div>
+      <label class="col-form-label" for="midi-file-input-1">MIDI 1</label>
+      <input type="file" id="midi-file-input-1">
+    </div>
+
+    <div>
+      <label class="col-form-label" for="midi-file-input-2">MIDI 2</label>
+      <input type="file" id="midi-file-input-2">
+    </div>
+
+    <div>
+      <label class="col-form-label" for="midi-file-input-3">MIDI 3</label>
+      <input type="file" id="midi-file-input-3">
+    </div>
+
+    <div>
+      <label class="col-form-label" for="midi-file-input-4">MIDI 4</label>
+      <input type="file" id="midi-file-input-4">
+    </div>
+
+    <div>
+      <label class="col-form-label" for="audio-file-input">Audio</label>
+      <input type="file" id="audio-file-input">
+    </div>
+  </div>
+
+  <div class="window">
+    <h2 class="window-title">#2. Setting</h2>
+    <!-- 設定 -->
+  </div>
+
+  <div class="window">
+    <h2 class="window-title">#3. Preview</h2>
+    <div id="sketch-holder"></div>
+    <button id="play-btn" type="button">Play</button>
+  </div>
+
+  <div class="window">
+    <h2 class="window-title">#4. Download</h2>
+    <button id="download-btn" type="button">Download</button>
+  </div>
+
+  <!-- Copyright -->
+  <!-- <small>Copyright ©️ 2024 Layotashi All Rights Reserved.</small> -->
+
+  <!-- Scripts -->
+  <script src="MIDI.js"></script>
+  <script src="midiJsonConverter.js"></script>
+  <script src="./p5.min.js"></script>
+  <script src="./colors.js"></script>
+  <script src="./functions.js"></script>
+  <script src="./preview.js"></script>
+</body>
+
+</html>

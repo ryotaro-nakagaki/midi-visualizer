@@ -1,0 +1,17 @@
+.window {
+  padding: 0;
+  margin: 20px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.window-title {
+  font-size: 12px;
+  font-family: monospace;
+  font-weight: bold;
+  margin: 0;
+  padding: 2px;
+  border-bottom: 2px solid black;
+  text-align: center;
+  background-color: #e3b314;
+}
