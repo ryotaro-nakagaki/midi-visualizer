@@ -1,0 +1,12 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background: #111;
+
+    /* 上下左右中央揃え */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
